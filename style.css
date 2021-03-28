@@ -1462,6 +1462,14 @@ footer{
         top: 72%;
         width: 17%;
     }
+    .advantage-zag{
+        font-size: 28px;
+        text-align: center;
+    }
+    .advantage-zag-2{
+        font-size: 20px;
+        text-align: center;
+    }
     .advantage-mobile-info-text-1{
         font-size: 22px;
         position: absolute;
