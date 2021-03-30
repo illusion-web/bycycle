@@ -953,12 +953,11 @@ footer{
     font-weight: 700;
     display: flex;
     justify-content: center;
-    margin-top: 8%;
 }
 .ops-button{
     display: flex;
     justify-content: center;
-    margin-top: 8%;
+    -margin-top: 8%;
 }
 .ops-button button{
     background-color: #ffffff;
@@ -978,10 +977,20 @@ footer{
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 .header-404{
-    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.header-404-body{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    margin-top: -270px;
 }
 .footer-404{
     position: fixed;
@@ -1007,7 +1016,18 @@ footer{
 }
 
 /*--------------- Adaptive -----------*/
-
+@media (max-height: 600px){
+    .header-404-body{
+        position: relative;
+        margin-top: 0%;
+    }
+    .footer-404{
+        position: relative;
+    }
+    .ops-button{
+        margin-bottom: 15%;
+    }
+}
 /*--------------- 1555px -----------*/
 @media (max-width: 1555px){
     .promotion-bg{
@@ -1585,9 +1605,6 @@ footer{
     .comment-person{
         margin-top: 7%;
     }
-    .header-404{
-        margin-top: 10%;
-    }
     .footer-404{
         padding: 5% 0% 5% 0%;
     }
@@ -1799,9 +1816,6 @@ footer{
     .ops-text{
         font-size: 1000%;
     }
-    .header-404{
-        margin-top: 35%;
-    }
     .advantage-br{
         display: block;
     }
@@ -1929,6 +1943,7 @@ footer{
     .footr-1-txt, .footr-2-txt{
         font-size: 15px;
     }
+
 }
 /*--------------- 450px -----------*/
 @media (max-width: 450px){
@@ -1941,6 +1956,11 @@ footer{
     }
 }
 /*--------------- 401px -----------*/
+@media (max-width: 414px){
+    .header-404-body{
+        margin-top: -165px;
+    }
+}
 @media (max-width: 401px){
     .advantage-mob-line{
         width: 27.2%;
@@ -2287,7 +2307,27 @@ footer{
     .footr-404-body-text{
         font-size: 16px;
     }
-    .header-404{
-        margin-top: 40%;
+}
+@media (max-width: 330px){
+    .advantage-hum-mobile{
+        width: 283px;
+        left: 50%;
+        margin-left: -141.5px;
+    }
+    .advantage-mob-line{
+        width: 24%;
+        top: 10%;
+    }
+    .mobile-menu__item{
+        margin-top: 20%;
+    }
+    .nav-mob{
+        margin-top: -50%;
+    }
+    .ops-text {
+        font-size: 800%;
+    }
+    .header-404-body{
+        margin-top: 10%;
     }
 }
