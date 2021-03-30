@@ -217,6 +217,12 @@ body{
 .nav-pc a:not(:first-child) {
     margin-left: 48.4px;
 }
+.nav-pc a:hover{
+    color: #0049A2;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    box-shadow: #6DC4FF;
+}
 /*--------------- mobile-menu -----------*/
 .mobile-menu {
     position: fixed;
