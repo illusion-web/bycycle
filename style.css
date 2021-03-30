@@ -221,7 +221,7 @@ body{
     color: #0049A2;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
-    box-shadow: #6DC4FF;
+    text-shadow: 0 0 10px #D3EDFF;
 }
 /*--------------- mobile-menu -----------*/
 .mobile-menu {
@@ -1019,6 +1019,11 @@ footer{
     font-family: 'Jost', sans-serif;
     font-size: 15px;
     font-weight: 300;
+}
+.footer-text-hover-w:hover{
+    color: #9CA4D3;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 /*--------------- Adaptive -----------*/
