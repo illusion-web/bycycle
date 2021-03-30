@@ -1651,7 +1651,8 @@ footer{
     }
     .promotion-bg-m{
         display: block;
-        left: 25%;
+        left: 50%;
+        margin-left: -187.5px;
     }
     .promotion-download-ic{
         display: flex;
@@ -1709,10 +1710,6 @@ footer{
     .news{
         margin-top: 50%;
     }
-    .promotion-bg-m{
-        display: block;
-        left: 20%;
-    }
     .promotion-download-ic{
         margin-top: 5%;
         margin-left: -28%;
@@ -1724,7 +1721,6 @@ footer{
         width: 21.4%;
         z-index: -11;
     }
-
 }
 /*--------------- 550px -----------*/
 @media (max-width: 550px){
@@ -1790,10 +1786,6 @@ footer{
     .news{
         margin-top: 57%;
     }
-    .promotion-bg-m{
-        display: block;
-        left: 17%;
-    }
     .promotion-download-ic{
         margin-top: 5%;
         margin-left: -28%;
@@ -1801,6 +1793,9 @@ footer{
 }
 /*--------------- 500px -----------*/
 @media (max-width: 500px){
+    .instruction-pic{
+        padding: 0% 10%;
+    }
     .ops-text{
         font-size: 1000%;
     }
@@ -1895,9 +1890,8 @@ footer{
         margin-top: 2%;
     }
     .promotion-bg-m{
-        padding-left: 0%;
-        left: 12%;
-        width: 80%;
+        width: 320px;
+        margin-left: -160px;
     }
     .promotion{
         margin-top: 68%;
@@ -1952,7 +1946,7 @@ footer{
         width: 27.2%;
         position: absolute;
         z-index: -11;
-        top: 11%;
+        top: 7%;
         left: 40%;
     }
     .advantage-mobile-info-text-1{
@@ -2176,7 +2170,7 @@ footer{
         left: 10%;
     }
     .promotion-bg-m{
-        padding-left: 0%;
+        margin-left: 0%;
         left: 0%;
         width: 100%;
     }
