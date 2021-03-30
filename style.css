@@ -1947,12 +1947,26 @@ footer{
 }
 /*--------------- 450px -----------*/
 @media (max-width: 450px){
+    header{
+        margin-top: 15%;
+    }
+    .header-img-m{
+        padding: 0% 5%;
+    }
     .advantage-mob-line{
         width: 24.3%;
         position: absolute;
         z-index: -11;
         top: 11%;
         left: 40%;
+    }
+    .advantage-hum-mobile{
+        width: 353px;
+        left: 50%;
+        margin-left: -176.5px;
+    }
+    footer{
+        margin-top: 15%;
     }
 }
 /*--------------- 401px -----------*/
@@ -2128,7 +2142,8 @@ footer{
         width: 305px;
         position: absolute;
         top: 34%;
-        left: 8%;
+        left: 50%;
+        margin-left: -151.5px;
     }
     .advantage-mobile-info-text-1{
         font-size: 20px;
